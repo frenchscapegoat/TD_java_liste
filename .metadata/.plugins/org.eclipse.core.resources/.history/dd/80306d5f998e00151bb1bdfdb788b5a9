@@ -1,0 +1,18 @@
+
+public class Table {
+	int nb_pieds;
+	String couleur;
+	double prix;
+	
+	// Constructeur
+	Table (){
+		nb_pieds=4;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Table t1;
+		t1 = new Table();
+	}
+
+}

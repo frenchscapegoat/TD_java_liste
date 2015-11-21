@@ -1,0 +1,15 @@
+
+public class VoitureProprietaire {
+	int annee;
+	int puissance;
+	double valeur;
+	Personne proprietaire;
+	
+	// Methode
+	public static void main (String args[]) {
+		VoitureProprietaire voiture1 = new VoitureProprietaire();
+		//System.out.println(v.proprietaire.anneeNaissance);
+		VoitureProprietaire voiture2 = new VoitureProprietaire();
+	}
+
+}

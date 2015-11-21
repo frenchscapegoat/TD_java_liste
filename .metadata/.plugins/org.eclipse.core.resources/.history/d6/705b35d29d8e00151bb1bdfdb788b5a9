@@ -1,0 +1,56 @@
+
+public class Table {
+	int nb_pieds;
+	String couleur;
+	double prix;
+	
+	// Static
+	final static String NOIR = "Noir";
+	final static String BLANC = "Blanc";
+	final static String MARRON = "Marron";
+	
+	// Constructeur
+	Table (){
+		nb_pieds=4;
+		couleur= MARRON;
+	}
+	// Rajout constructeurs
+	Table (int nb){
+		this();
+		nb_pieds=nb;
+		//this.nb_pieds = nb; // C'est la meme chose qu'au dessus !!
+	}
+	Table (int nb, String coul){
+		this(nb);
+		couleur=coul;
+	}
+
+	public static void main(String[] args) {
+		Table t1;
+		t1 = new Table();
+		System.out.println("Nombre de pieds : " +t1.nb_pieds);
+		System.out.println("Prix : " +t1.prix);
+		System.out.println("Couleur : " +t1.couleur);
+		
+		/// Suite exercice
+		Table t = new Table();
+		System.out.println(t.nb_pieds);
+		System.out.println(t.couleur);
+		System.out.println(t.prix);
+		System.out.println();
+		
+		Table t2 = new Table(3);
+		System.out.println(t2.nb_pieds);
+		System.out.println(t2.couleur);
+		System.out.println(t2.prix);
+		System.out.println();
+		
+		Table t3 = new Table(6, Table.NOIR);
+		System.out.println(t3.nb_pieds);
+		System.out.println(t3.couleur);
+		System.out.println(t3.prix);
+		System.out.println();
+		
+	}
+
+}

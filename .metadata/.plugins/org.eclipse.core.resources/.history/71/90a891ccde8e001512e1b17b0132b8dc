@@ -1,0 +1,11 @@
+/* VERSION STATIC */
+public class PileStatic {
+	// STATIC
+	static int nbValeurs;
+	final int NB_MAX=100;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

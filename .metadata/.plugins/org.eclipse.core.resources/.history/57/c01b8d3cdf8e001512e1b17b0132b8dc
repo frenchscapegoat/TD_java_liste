@@ -1,0 +1,22 @@
+/* VERSION STATIC */
+public class PileStatic {
+	final int NB_MAX=100;
+	
+	// STATIC
+	static int nbValeurs;
+	
+	// METHODES
+	void empiler(int i){
+		
+	}
+	
+	void empiler(int i, int j){
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

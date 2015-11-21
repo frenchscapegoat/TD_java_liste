@@ -1,0 +1,8 @@
+
+public class CompteCourant {
+	private int numero;
+	private double solde;
+	private double decouvertAutorise;
+	
+	
+}

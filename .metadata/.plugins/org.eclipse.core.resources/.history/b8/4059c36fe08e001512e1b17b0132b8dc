@@ -1,0 +1,27 @@
+/* VERSION STATIC */
+public class PileStatic {
+	final int NB_MAX=100;
+	
+	// STATIC
+	static int nbValeurs;
+	
+	// METHODES
+	void empiler(int i){
+		this
+	}
+	
+	void empiler(int i, int j){
+		
+	}
+	
+	void afficherSommet(){
+		System.out.println(this);
+	}
+	
+	/* ----- MAIN ----- */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

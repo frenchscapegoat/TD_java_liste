@@ -1,0 +1,12 @@
+
+public class Assurance {
+
+	public static void main(String[] args) {
+		Voiture scenic;
+		scenic = new Voiture();
+		
+		scenic.annee = 1998;
+		System.out.println("Année du Scénic " +scenic)
+	}
+
+}

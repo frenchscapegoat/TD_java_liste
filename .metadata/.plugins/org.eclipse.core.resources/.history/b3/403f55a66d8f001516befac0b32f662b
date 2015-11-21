@@ -1,0 +1,35 @@
+
+public class Enfant {
+	private final static int MAX_CADEAUX = 5;
+	
+	private String prenom;
+	private boolean sage;
+	private Cadeau[] cadeaux;
+	private int currentNbCadeaux;
+	
+	public Enfant(String prenom, boolean sage){
+		
+	}
+	
+	public void ajouterCadeau(Cadeau aOffrir){
+		
+	}
+	
+	public boolean aEteSage(){
+		
+	}
+	
+	public String getPrenom(){
+		
+	}
+	
+	public int getCurrentNbCadaux(){
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

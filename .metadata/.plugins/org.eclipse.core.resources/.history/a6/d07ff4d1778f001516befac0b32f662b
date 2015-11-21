@@ -1,0 +1,12 @@
+
+public class CompteCourant {
+	private int numero;
+	private double solde;
+	private double decouvertAutorise;
+	
+	public CompteCourant(int numero, double solde, double decouvertAutorise){
+		this.numero = numero;
+		this.solde = solde;
+		this.decouvertAutorise = decouvertAutorise;
+	}
+}

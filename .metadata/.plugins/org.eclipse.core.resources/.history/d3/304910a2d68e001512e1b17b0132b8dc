@@ -1,0 +1,22 @@
+
+public class CabinetAssurance {
+	final int NB_MAX = 10;
+	
+	Voiture [] voitures;
+	int nbVoitures;
+	
+	CabinetAssurance (){
+		voitures = new Voiture [NB_MAX];
+	}
+	
+	void  ajouterVoiture (Voiture v1) {
+		voitures[nbVoitures] = v1;
+		nbVoitures++;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

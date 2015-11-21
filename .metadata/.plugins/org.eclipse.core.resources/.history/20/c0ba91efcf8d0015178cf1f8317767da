@@ -1,0 +1,13 @@
+
+public class Assurance {
+	public static void main(String[] args) {
+		// Declarer un reference a une voiture
+		Voiture scenic;
+		
+		// New = allouer de la place memoire dans le tas ppour tous les attributs de l'objet
+		// = initialiser les attributs aux valeur spar defaut
+		// = retourner l'adresse de la zone allouee
+		scenic = new Voiture();
+	}
+
+}

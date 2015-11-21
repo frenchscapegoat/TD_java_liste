@@ -1,0 +1,9 @@
+
+public class Assurance {
+
+	public static void main(String[] args) {
+		Voiture scenic;
+		scenic = new Voiture();
+	}
+
+}
