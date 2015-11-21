@@ -1,0 +1,32 @@
+
+public class Stock {
+
+	// Déclaration constantes
+	
+	
+	public static void main(String[] args) {
+		// ---
+		// Déclarer Tableaux
+		// ---
+		
+		
+		
+		// ---
+		// Allouer les tableaux
+		// ---
+		
+		
+		
+		// ---
+		// Mettre des valeurs dans les cases
+		// ---
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,47 @@
+
+public class Stock {
+
+	// Déclaration constantes
+	static int TAILLE_TAB=5;
+	
+	
+	public static void main(String[] args) {
+		// ---
+		// Déclarer Tableaux
+		// ---
+		char tabchar[];
+		double tabdouble[];
+		int effectiveTabdouble = 0;
+		tabchar[0]='a';
+		
+		// ---
+		// Allouer les tableaux
+		// ---
+		tabchar = new char[TAILLE_TAB];
+		int effectiveTabchar = 0;
+		tabdouble = new double[TAILLE_TAB];
+		
+		
+		// ---
+		// Mettre des valeurs dans les cases
+		// ---
+		
+		
+		// ---
+		// Parcours des 2 tableaux avec 2 boucles foreach
+		// ---
+		
+		
+		// ---
+		// Parcours des 2 tableaux en parallèle avec while + bool
+		// ---
+		while (/* Condition */)
+		{
+		  //Instructions à répéter
+		}
+		
+		
+
+	}
+
+}

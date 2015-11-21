@@ -1,0 +1,20 @@
+import java.math.*;
+public class AfficherSaisir {
+	double pi=Math.PI
+	public static void main(String[] args) {
+		System.out.println("Bonjour ! ");
+		
+		// Afficher PI avec 3 decimales
+		System.out.println("Pi = " +pi);
+		System.out.format("%.3f%n", pi);     // -->  "3.142"
+
+		
+		// Effectuer une saisie d'un double n
+		
+		
+		// Afficher un nombre entre 0 et n de facon aléatoire
+		
+		
+	}
+
+}

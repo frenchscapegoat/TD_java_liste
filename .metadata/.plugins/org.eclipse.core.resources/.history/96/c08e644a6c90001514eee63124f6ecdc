@@ -1,0 +1,34 @@
+
+public class Stock {
+
+	// Déclaration constantes
+	
+	
+	public static void main(String[] args) {
+		// ---
+		// Déclarer Tableaux
+		// ---
+		
+		
+		
+		// ---
+		// Allouer les tableaux
+		// ---
+		
+		
+		
+		// ---
+		// Mettre des valeurs dans les cases
+		// ---
+		
+		
+		// ---
+		// Parcours des 2 tableaux avec 2 boucles foreach
+		// ---
+		
+		
+		
+
+	}
+
+}
