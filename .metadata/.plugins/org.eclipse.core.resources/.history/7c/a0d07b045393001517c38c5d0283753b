@@ -1,0 +1,54 @@
+
+public class Banque {
+	final static int TAILLEMAX=2;
+	private CompteCourant [] tabcomptes;
+	private int nbComptes;
+	
+	private Client proprietaire;
+	
+	// Constructeur
+	Banque(){
+		tabcomptes = new CompteCourant[TAILLEMAX];
+	}
+	
+	Banque (int nbComptes){
+		tabcomptes = new CompteCourant[nbComptes];
+	}
+	
+	// METHODES
+	
+	public void ajouterCompte(CompteCourant nouveauCompte){
+		tabcomptes [nbComptes] = nouveauCompte;
+		nbComptes ++;
+	}
+	public void afficherComptes(){
+		for (CompteCourant c : tabcomptes){
+			System.out.println("Numéro de Compte : " +c.getNumero());
+			System.out.println("Solde du Compte : " +c.getSolde());
+		}
+	}
+	
+	
+	// MAIN
+	public static void main(String[] args){
+		CompteCourant cDupont = new CompteCourant(120,0);
+		CompteCourant cDurand = new CompteCourant(123,1000);
+		cDurand.setSeuil(2000);
+		
+		// 2 - Tableau d'objets
+		Banque banqueOrsay = new Banque(2);
+		banqueOrsay.ajouterCompte(cDupont);
+		
+		Banque banqueBures = new Banque(10);
+		banqueBures.ajouterCompte(cDurand);
+		
+		// Affichage comptes
+		banqueOrsay.afficherComptes();
+		banqueBures.afficherComptes();
+		
+		//
+		
+		
+	}
+}
+		

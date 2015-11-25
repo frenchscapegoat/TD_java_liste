@@ -1,0 +1,27 @@
+
+public class Banque {
+	final static int TAILLEMAX=2;
+	CompteCourant [] tabcomptes;
+	
+	// Constructeur
+	Banque(){
+		tabcomptes = new CompteCourant[TAILLEMAX];
+	}
+	
+	Banque (int nbComptes){
+		tabcomptes = new CompteCourant[nbComptes];
+	}
+	
+	// MAIN
+	public static void main(String[] args){
+		// 2 - Tableau d'objets
+		Banque maBanque = new Banque(2);
+		maBanque.tabcomptes[0]= new CompteCourant();
+		
+		for
+		System.out.println(maBanque[i].getNumero());
+		
+		
+	}
+}
+		

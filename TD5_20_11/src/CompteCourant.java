@@ -1,6 +1,7 @@
 
 public class CompteCourant {
 	private int numero;
+	private Client proprietaire;
 	private double solde;
 	private double decouvertAutorise;
 	
@@ -16,5 +17,15 @@ public class CompteCourant {
 	
 	public void setNumero(int n){
 		this.numero=n;
+	}
+	public void setSeuil(int n){
+		this.decouvertAutorise = n;
+	}
+	public double getSolde(){
+		return this.solde;
+	}
+
+	public Client getProprietaire() {
+		return proprietaire;
 	}
 }
