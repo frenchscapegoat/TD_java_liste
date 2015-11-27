@@ -1,0 +1,47 @@
+package banquestatic;
+
+public class CompteCourant {
+	private int numero;
+	private static int nbComptes;
+	private static double taux = 0.01;
+	
+	private Client proprietaire;
+	private double solde;
+	private double decouvertAutorise;
+	// CONSTRUCTEURS
+	public CompteCourant(){
+		//
+		// incrémenter le nbClients
+		nbComptes ++;
+		// Fixer le numéro de ce client
+		numero = nbComptes;
+		//
+		this.solde = 0;
+		this.decouvertAutorise = 0;		
+	}
+	
+	
+	public CompteCourant(double solde){
+		this();
+		this.solde = solde;
+		this.decouvertAutorise = 10;
+	}
+	
+	public int getNumero(){
+		return this.numero;
+	}
+	
+	public void setNumero(int n){
+		this.numero=n;
+	}
+	public void setSeuil(int n){
+		this.decouvertAutorise = n;
+	}
+	public double getSolde(){
+		return this.solde;
+	}
+
+	public Client getProprietaire() {
+		return proprietaire;
+	}
+}

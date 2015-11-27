@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;TD5_20_11/src/banquestatic&apos;&#x0D;&#x0A;- Original project: &apos;TD5_20_11&apos;&#x0D;&#x0A;- Destination element: &apos;TD5_20_11/src/banquestatic&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     CompteCourant.java&#x0D;&#x0A;     Banque.java&#x0D;&#x0A;     Client.java" description="Copy compilation units" destination="/src&lt;banquestatic" element1="/src&lt;{CompteCourant.java" element2="/src&lt;{Banque.java" element3="/src&lt;{Client.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1448523717065" units="3" version="1.0"/>
+</session>
