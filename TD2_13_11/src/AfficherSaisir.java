@@ -9,6 +9,7 @@ public class AfficherSaisir {
 		// Afficher PI avec 3 decimales
 		System.out.println("Pi = " +pi);
 		System.out.format("%.3f%n", pi);     // -->  "3.142"
+		// System.out.println(%1.3f, pi); // MARCHE PAS BATARD
 		
 		// Effectuer une saisie d'un double n
 		Scanner sc = new Scanner(System.in);		

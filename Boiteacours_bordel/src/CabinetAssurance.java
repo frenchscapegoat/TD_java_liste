@@ -2,25 +2,26 @@
 public class CabinetAssurance {
 	final int NB_MAX = 10;
 	
-	Voiture [] voitures;
+	Voiture [] tabVoitures;
 	int nbVoitures;
 	
+	// Je crée un constructeur de tabVoitures !!
 	CabinetAssurance (){
-		voitures = new Voiture [NB_MAX];
+		tabVoitures = new Voiture [NB_MAX];
 	}
 	
 	void  ajouterVoiture (Voiture v1) {
-		voitures[nbVoitures] = v1;
+		tabVoitures[nbVoitures] = v1;
 		nbVoitures++;
 	}
 	
 	public static void main(String[] args) {
-		CabinetAssurance a = new CabinetAssurance();
+		CabinetAssurance macif = new CabinetAssurance();
 		
 		Voiture durand = new Voiture();
 		durand.annee = 1999;
 		
-		a.ajouterVoiture(durand);
+		macif.ajouterVoiture(durand);
 	}
 
 }

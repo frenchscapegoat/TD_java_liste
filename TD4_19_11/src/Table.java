@@ -28,7 +28,9 @@ public class Table {
 	}
 	
 	// Affichage attributs de la cible
-	void afficher(){
+	public void afficher(){
+		System.out.println("Affichage des caractéristiques de la table ");
+		System.out.println();
 		System.out.println(nb_pieds);
 		System.out.println(couleur);
 		System.out.println(prix);
@@ -36,40 +38,54 @@ public class Table {
 	}
 
 	public static void main(String[] args) {
+		// Déclaration tableau
 		Table t1;
+		
+		// Allocation mémoire t1
 		t1 = new Table();
+		
+		// Affichage des caractéristiques du constructeur de base
+		System.out.println("Caractéristiques Constructeur de base : ");
+		System.out.println("Exemple de t1");
 		System.out.println("Nombre de pieds : " +t1.nb_pieds);
 		System.out.println("Prix : " +t1.prix);
 		System.out.println("Couleur : " +t1.couleur);
 		
-		/// Suite exercice
+		/// Déclaration et allocation t
 		Table t = new Table();
+		System.out.println("Table t avec constructeur à 0 paramètre ");
 		t.afficher();
 		
-		// Creer table2
+		// Déclaration et allocation table2
 		Table t2 = new Table(3);
+		System.out.println("Table t2 avc constructeur à 1 paramètre ");
 		t2.afficher();
 		
-		// Creer table3
+		// Déclaration et allocation table3
 		Table t3 = new Table(6, Table.NOIR);
+		System.out.println("Table t3 avec constructeur à 2 paramètres ");
 		t3.afficher();
 		
+		
+		//
 		/* EXERCICE B */
+		//
+		
 		Table t4;
 		t4 = t3;
 		t3.prix=t3.prix*20/100.0; // Il faut affecter un t3.prix à 1 par défaut, histoire d'afficher un résultat
+		
 		System.out.println(t4.prix); // On affiche via la référence t4
-		// Schéma de la mémoire sur feuille libre
 		
+		//
 		/* EXERCICE C */
+		//
 		
-		// Déclaration d'un tableau de tables
-		final int NB_TABLES_MAX=4;
-		Table tables[]; // On crée l'objet tables, qui contient des tables
-		int nbTables = 3;
+
 		
+		// ----------------------------------------LALAL-------------------
 		// Création d'un tableau de 4 ref vers table
-		Table table1 = new Table();
+
 		
 		// Création 3 table et stockage adresse dans les 3 premieres cases du tableau
 		

@@ -8,7 +8,7 @@ public class VoitureProprietaire {
 	// Methode
 	public static void main (String args[]) {
 		VoitureProprietaire voiture1 = new VoitureProprietaire();
-		//System.out.println(v.proprietaire.anneeNaissance);
+		//System.out.println(voiture1.proprietaire.anneeNaissance); // Exception in thread: NULLPOINTEREXCEPTION
 		VoitureProprietaire voiture2 = new VoitureProprietaire();
 		
 			

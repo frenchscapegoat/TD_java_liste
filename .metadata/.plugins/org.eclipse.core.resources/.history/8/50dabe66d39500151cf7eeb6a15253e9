@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+public class Stock {
+
+	// Déclaration constantes
+	static int TAILLE_TAB=5;
+	
+	// MAIN
+	
+	public static void main(String[] args) {
+		// ---
+		// Déclarer Tableaux
+		// ---
+		char tabchar[];
+		double tabdouble[];
+		
+		// ---
+		// Allouer les tableaux
+		// ---
+		tabchar = new char[TAILLE_TAB];
+		//int effectiveTabchar = 0;
+		tabdouble = new double[TAILLE_TAB];
+		//int effectiveTabdouble = 0;
+		
+		// ---
+		// Mettre des valeurs dans les cases
+		// ---
+		tabchar[0]='A';
+		tabchar[1]='B';
+		tabchar[2]='C';
+		
+		tabdouble[0]=10.5;
+		tabdouble[1]=2.5;
+		tabdouble[2]=21.5;
+		
+		final int NB_ARTICLES;
+		System.out.println("Pouvez-vous me donner un nombre d'articles svp ?");
+		Scanner sc = new Scanner(System.in);
+		NB_ARTICLES = sc.nextInt();
+		
+		// ---
+		// Parcours des 2 tableaux avec 2 boucles foreach
+		// ---
+		//System.out.println("A")
+		
+		for (char i : tabchar){
+			System.out.print(i);
+		}
+		System.out.println();
+		for (double i : tabdouble){
+			System.out.print(i" ");
+		}
+		
+		// ---
+		// Parcours des 2 tableaux en parallèle avec while + bool
+		// ---
+		
+		
+		
+
+	}
+
+}
