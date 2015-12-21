@@ -6,26 +6,26 @@ public class PileStatic {
 	static int nbValeurs;
 	static int tabEntier[];
 	// METHODES
-	void empiler(int i){
+	static void empiler(int i){
 		nbValeurs=nbValeurs+1;
 		tabEntier[nbValeurs]=i;
 	}
 	
-	void empiler(int i, int j){
+	static void empiler(int i, int j){
 		nbValeurs=nbValeurs+1;
 		tabEntier[nbValeurs]=i;
 		nbValeurs=nbValeurs+1;
 		tabEntier[nbValeurs]=j;
 	}
 	
-	void afficherSommet(){
+	static void afficherSommet(){
 		System.out.println("Affichage du sommet :" +tabEntier[nbValeurs]);
 	}
 	
 	/* ----- MAIN ----- */
 	public static void main(String[] args) {
 		nbValeurs=0;
-		
+		empiler(10);
 		
 		// Afiichage de toutes les valeurs
 		for (int i=0; i<nbValeurs; i++){

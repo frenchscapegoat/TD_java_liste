@@ -1,0 +1,19 @@
+package editeurgraphique;
+
+public class Rec extends FormeGeometrique{
+	double longueur;
+	double largeur;
+	@Override
+	double perimetre(double longueur, double largeur) {
+		double p=longueur*2+largeur*2;// TODO Auto-generated method stub
+		return p;
+	}
+
+	@Override
+	double surface() {
+		s=longueur*largeur
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

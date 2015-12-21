@@ -1,5 +1,7 @@
 package banquestatic;
 
+import java.util.Scanner;
+
 public class Banque {
 	final static int TAILLEMAX=2;
 	private CompteCourant [] tabcomptes;
@@ -70,6 +72,14 @@ public class Banque {
 		}
 	}
 	
+	public static double getTaux() {
+		return taux;
+	}
+
+	public static void setTaux(double taux) {
+		Banque.taux = taux;
+	}
+
 	// MAIN
 	public static void main(String[] args){
 		CompteCourant cDupont = new CompteCourant(0);
@@ -94,7 +104,13 @@ public class Banque {
 		clientDurand.setNom("Durand");
 		
 		// JAout d'un montant
-		cDupont.deposer(10) // TERMINER
+		cDupont.deposer(10); // TERMINER
+		
+		// Augmenter le taux 
+		System.out.println("Rentrez un nouveau taux svp");
+		Scanner sc = new Scanner(System.in);
+		double tauxTmp = sc.nextDouble();
+		banqueOrsay.setTaux(tauxTmp);
 	}
 }
 		

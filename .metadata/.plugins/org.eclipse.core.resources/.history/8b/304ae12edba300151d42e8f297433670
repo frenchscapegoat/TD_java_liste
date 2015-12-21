@@ -1,0 +1,20 @@
+package editeurgraphique;
+import java.math.*;
+
+public class Cercle extends FormeGeometrique{
+	
+	double rayon;
+	@Override
+	double perimetre() {
+		p=2*Pi*rayon;// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	double surface() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

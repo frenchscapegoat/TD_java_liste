@@ -1,0 +1,13 @@
+package salariedebanque;
+
+public class ClientInterne {
+	private Compte compte;
+	
+	// Methodes
+	public Compte getCompte(){
+		return compte;
+	}
+	public void verserSalaire(){
+		
+	}
+}

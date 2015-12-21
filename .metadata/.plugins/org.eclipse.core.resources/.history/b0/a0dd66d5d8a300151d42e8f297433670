@@ -1,0 +1,16 @@
+package editeurgraphique;
+
+public abstract class FormeGeometrique {
+	double x;
+	double y;
+	
+	void deplacer (double x2, double y2){
+		x = x2;
+		y = y2;
+	}
+	void afficher(){
+		System.out.println("x= "+x+" ,y= "+y);
+	}
+	
+}
+

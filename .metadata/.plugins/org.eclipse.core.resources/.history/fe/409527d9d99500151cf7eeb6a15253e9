@@ -1,6 +1,0 @@
-
-public class Tabtables {
-	Tabtables(){
-		tab = new Table[5];
-	}
-}

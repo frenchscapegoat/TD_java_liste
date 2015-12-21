@@ -1,0 +1,5 @@
+package editeurgraphique;
+
+public abstract class FormeGeometrique {
+
+}

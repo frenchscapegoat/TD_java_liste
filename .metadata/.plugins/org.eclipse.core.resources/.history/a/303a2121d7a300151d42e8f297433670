@@ -1,0 +1,13 @@
+package editeurgraphique;
+import java.awt.*;
+
+public class Editeur {
+	public void afficherStats (FormeGeometrique f){
+		// Déclarer une référence vers une fenetre indépendante
+		Frame frame;
+		
+		// Creer un objet de type fenetre indépendante
+		frame = new Frame ("Statistiuqes sur une forme graphique");
+		
+	}
+}

@@ -1,0 +1,6 @@
+package editeurgraphique;
+import java.awt.*;
+
+public class Editeur {
+	
+}
