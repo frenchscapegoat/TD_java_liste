@@ -1,5 +1,0 @@
-package salariedebanque;
-
-public abstract class Salarie {
-
-}

@@ -1,8 +1,0 @@
-package editeurgraphique;
-import java.awt.*;
-
-public class Editeur {
-	public void afficherStats (FormeGeometrique f){
-		
-	}
-}
